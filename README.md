@@ -38,14 +38,14 @@ To use Minitalk, follow these steps:
 - The client sends each character of the message as a series of bits using the `kill` system call.
 - The server, upon receiving the signal, reconstructs the message and displays it.
 
-## Compilation
+## Compilation
 The project can be compiled using the provided Makefile. Simply run:
     ```
     make
     ```
     This will generate the server and client executables.
 
-## Example
+## Example
 
 1. Start the server:
     ```
